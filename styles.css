@@ -9,7 +9,7 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    min-width: 970px;
+    min-width: 1250px;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    min-width: 970px;
+    min-width: 1250px;
 }
 .header {
     background-color: #272727;
@@ -51,13 +51,76 @@ body {
 
 #btnWrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     margin-top: 150px;
+    justify-content: space-evenly;
+}
+
+#wrapper {
+    margin: 0 10% 0 10%;
+    display: none;
+}
+
+#formWrapper {
+    display: none;
+}
+
+#athleteFormBtn {
+    background-color: #272727;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#athleteFormBtnWrapper, #athleteFormBtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.athleteRow {
+    display: flex;
     flex-direction: row;
 }
-/*Texts/Fonts______________________________________________________*/
+
+#accountFormWrapper {
+    display: none;
+}
+
+#accountFormBtn {
+    background-color: #272727;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+#accountForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accountFormBtnWrapper, #accountFormBtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountRow {
+    display: flex;
+    flex-direction: row;
+}
+/*Text/Fonts______________________________________________________*/
 h1 {
     color: white;
     font-size: 75px;

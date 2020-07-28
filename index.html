@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="indexScript.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -25,19 +25,63 @@
             <p id="indexBtnTxt">Get Started</p>
         </div>
     </div>
-    <div id="btnWrapper">
-        <div class="btn" id="indexAthleteBtn">
-             <p id="indexBtnTxt">Athlete</p>
-         </div>
-        <div class="btn" id="indexCoachBtn">
-             <p id="indexBtnTxt">Coach</p>
-         </div>
-        <div class="btn" id="indexSpectatorBtn">
-             <p id="indexBtnTxt">Spectator</p>
-         </div>
-        <div class="btn" id="indexTOBtn">
-             <p id="indexBtnTxt">Track Official</p>
-         </div>
-     </div>
+    <div id="wrapper">
+        <div id="btnWrapper">
+            <div class="btn" id="indexAthleteBtn">
+                <p id="indexBtnTxt">Athlete</p>
+            </div>
+            <div class="btn" id="indexCoachBtn">
+                <p id="indexBtnTxt">Coach</p>
+            </div>
+            <div class="btn" id="indexSpectatorBtn">
+                <p id="indexBtnTxt">Spectator</p>
+            </div>
+            <div class="btn" id="indexTOBtn">
+                <p id="indexBtnTxt">Track Official</p>
+            </div>
+        </div>
+    </div>
+    <div id="formWrapper">
+        <div id="form">
+            <div class="athleteRow" id="athleteFirstName">
+                <p>First Name</p>
+                <input id="firstName" type="text" placeholder="e.g. John">
+            </div>
+            <div class="athleteRow" id="athleteLastName">
+                <p>Last Name</p>
+                <input id="lastName" type="text" placeholder="e.g. Smith">
+            </div>
+            <div class="athleteRow" id="athleteTrainingGroup">
+                <p>Training Group Name</p>
+                <input id="trainingGroupName" type="text" placeholder="e.g. Pamphlett">
+            </div>
+        </div>
+    </div>
+    <div id="athleteFormBtnWrapper">
+        <div id="athleteFormBtn">
+            <p id="athleteFormBtnTxt">Submit</p>
+        </div>
+    </div>
+    <div id="accountFormWrapper">
+        <div id="accountForm">
+            <div class="accountRow" id="accountUsername">
+                <p>Username</p>
+                <input id="username" type="text" placeholder="e.g. darkMist52">
+            </div>
+            <div class="accountRow" id="accountPassword">
+                <p>Password</p>
+                <input id="password" type="text" placeholder="e.g. @Thl3te">
+            </div>
+            <div class="accountRow" id="accountRePassword">
+                <p>Re-Enter Password</p>
+                <input id="reEnterPassword" type="text" placeholder="e.g. @Thl3te">
+            </div>
+        </div>
+    </div>
+    <div id="accountFormBtnWrapper">
+        <div id="accountFormBtn">
+            <p id="accountFormBtnTxt">Submit</p>
+        </div>
+    </div>
 </body>
 </html> 
