@@ -1,0 +1,88 @@
+html {
+    background-image: linear-gradient(#EB1414, #FF00D8); 
+    font-family: 'Roboto', sans-serif;   
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 970px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    min-width: 970px;
+}
+.header {
+    background-color: #272727;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    position: fixed;
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    min-width: 970px;
+}
+
+.logInBtn {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0 25px 0 0;
+}
+
+.btn {
+    background-color: #272727;
+    border-radius: 25px;
+    width: 280px;
+    height: 72px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+    flex-direction: row;
+}
+/*Texts/Fonts______________________________________________________*/
+h1 {
+    color: white;
+    font-size: 75px;
+    margin: 140px;
+    padding: 0;
+    font-weight: 800;
+}
+
+p {
+    color: white;
+    padding: 0;
+}
+
+#indexBtnTxt {
+    padding: 15px;
+    margin: 0;
+    font-size: 40px;
+}
+
+#indexTxt {
+    margin: -100px 40px 0px 40px;
+    font-size: 40px;
+}
+
+#logInTxt {
+    margin: 0 10px 0 10px;
+    color: black;
+}

@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $("#indexAthleteBtn").hide();
+    $("#indexCoachBtn").hide();
+    $("#indexSpectatorBtn").hide();
+    $("#indexTOBtn").hide();
+    $("#indexBtn").click(function(){
+        $("#btnWrapper").hide();
+        $("#indexBtn").hide();
+        $("#indexBtnTxt").hide();
+        $("#indexAthleteBtn").show();
+        $("#indexCoachBtn").show();
+        $("#indexSpectatorBtn").show();
+        $("#indexTOBtn").show();
+    });
+});
